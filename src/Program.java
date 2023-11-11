@@ -4,7 +4,7 @@ public class Program {
 
     public static void main(String[] args) {
         int balance = 100;
-        int bonusscale = 100;
+        int bonusScale = 100;
         int bonus;
 
         Scanner in = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class Program {
         int amount = in.nextInt();
 
         if (amount > 1000) {
-            bonus = amount / bonusscale;
+            bonus = amount / bonusScale;
         } else {
             bonus = 0;
         }
